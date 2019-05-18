@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Titillium+Web&display=swap');
+
+.fonte1{
+    font-family: 'Montserrat', sans-serif;
+}
+.fonte2{
+    font-family: 'Titillium Web', sans-serif;
+}
+.fonte3{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.logo-main{
+    width: 7em;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 3em;
+}
+
+.logo-cima{
+    width: 50em;
+    /* height: 40px; */
+    object-fit: cover;
+}
+
+#img-topo-site{
+    background-image:url('../img/pattern.jpg');    
+    background-repeat:no-repeat;
+    height: 30em;
+    background-size: cover;
+    
+}
+
+#collapsibleNavbar{
+    margin-left: 35em;
+}
+
+#secao-primaria{
+    margin-top: -60px;
+}
+#destaque-main{
+    margin-top: 13em;    
+}
+/* .destaque-texto-primaria{
+    font-size: 3em;
+    z-index: 99;
+} */
+@media screen and (max-width: 425px) {
+    #collapsibleNavbar{
+        margin-left: 0em;
+    }
+}
