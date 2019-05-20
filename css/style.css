@@ -11,7 +11,22 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.fundo-verde{
+    background-color: #16A085;
+}
 
+.img-equipe{
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
+    
+}
+.detalhe-equipe{
+    border-left: 10px solid green;
+}
+.detalhe-servicos, .detalhe-sobre-nos{
+    border-left: 10px solid white;
+}
 
 .logo-main{
     width: 7em;
@@ -25,12 +40,20 @@
     /* height: 40px; */
     object-fit: cover;
 }
+#img-sistemas{
+    background-image:url('../img/pattern.jpg');
+    background-repeat:no-repeat;
+    height: 15em;    
+    background-size: cover;
+}
+
 
 #img-topo-site{
     background-image:url('../img/pattern.jpg');    
     background-repeat:no-repeat;
-    height: 30em;
+    height: 50em;
     background-size: cover;
+    z-index: 1;
     
 }
 
@@ -42,14 +65,32 @@
     margin-top: -60px;
 }
 #destaque-main{
-    margin-top: 13em;    
+    margin-top: 20em;    
 }
-/* .destaque-texto-primaria{
-    font-size: 3em;
-    z-index: 99;
-} */
+.input-data{
+    border:none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+}
+.icon-social{
+    font-size: 1.2em;
+    color: #FFF;
+}
+.teste2{
+    background-color: rgb(17, 122, 101  ,0.9);
+}
+.bg-footer{
+    background-color: #273746;
+}
+
 @media screen and (max-width: 425px) {
     #collapsibleNavbar{
         margin-left: 0em;
     }
+    .logo-main{
+       
+        margin-left: 0em;
+    }
 }
+
+
